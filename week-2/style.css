@@ -4,11 +4,12 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     color: #505050;
+    background: linear-gradient(aqua, rgb(6, 113, 134),rgb(4, 78, 106));
 }
 
 /* Header Styles */
 header {
-    background-color: #282689;
+    background: linear-gradient(rgb(4, 78, 106), aqua);
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -32,12 +33,14 @@ header {
 
 /* Navigation Styles */
 nav ul {
-    background-color: #333;
+    background-color: #333333;
     color: #fff;
     text-align: center;
     list-style-type: none;
     margin: 0;
     padding: 20px;
+    font-size: x-large;
+    font-style: oblique;
 }
 
 nav li {
@@ -69,22 +72,22 @@ nav a:hover {
 
 .centered-banner {
     padding: 30px;
-    max-width: 80%;
+    max-width: 88%;
     height: auto;
 }
 
 /* Main Content Styles */
 main {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
 }
 
 .services {
-    margin: 2rem auto;
+    margin: 1rem auto;
     padding: 2rem;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(211, 99, 99, 0.1);
 }
 
 main h3 {
@@ -137,8 +140,10 @@ main h3 {
 .cta-container {
     text-align: center;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #a6a4a4;
     margin-top: 30px;
+    font-size: x-large;
+    font-style: italic;
 }
 
 .cta-button {
@@ -154,7 +159,7 @@ main h3 {
 }
 
 .cta-button:hover {
-    background-color: #0056b3;
+    background-color: #b7bdc3;
 }
 
 /* Footer Styles */
